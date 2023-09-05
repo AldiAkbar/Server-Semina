@@ -1,0 +1,71 @@
+[
+  {
+    "_id": {
+      "$oid": "62cfe35e8ad11e7a5e240f28"
+    },
+    "name": "Organizer 1",
+    "email": "organizer1@gmail.com",
+    "password": "$argon2i$v=19$m=16,t=2,p=1$dmZUWmRhU1VWS2VSbjZSQmhiNjVjNzU0OFZKS0gzNENENGM1NnMzRkdIZGdzZA$3DmfdY0Tmg+1iRx+vKsYEw",
+    "role": "Organizer",
+    "organizer": {
+      "$oid": "62cfe35e8ad11e7a5e240f26"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1657791326139"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1657791326139"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62cfe3728ad11e7a5e240f2c"
+    },
+    "name": "Owner 1",
+    "email": "owner@gmail.com",
+    "password": "$argon2i$v=19$m=16,t=2,p=1$dmZUWmRhU1VWS2VSbjZSQmhiNjVjNzU0OFZKS0gzNENENGM1NnMzRkdIZGdzZA$3DmfdY0Tmg+1iRx+vKsYEw",
+    "role": "Owner",
+    "organizer": {
+      "$oid": "62cfe3728ad11e7a5e240f2a"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1657791346465"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1657791346465"
+      }
+    },
+    "__v": 0
+  },
+  {
+    "_id": {
+      "$oid": "62cfe3959d69d38ccae39a86"
+    },
+    "name": "Admin 1",
+    "email": "admin@gmail.com",
+    "password": "$argon2i$v=19$m=16,t=2,p=1$dmZUWmRhU1VWS2VSbjZSQmhiNjVjNzU0OFZKS0gzNENENGM1NnMzRkdIZGdzZA$3DmfdY0Tmg+1iRx+vKsYEw",
+    "role": "Admin",
+    "organizer": {
+      "$oid": "62cfe35e8ad11e7a5e240f26"
+    },
+    "createdAt": {
+      "$date": {
+        "$numberLong": "1657791381263"
+      }
+    },
+    "updatedAt": {
+      "$date": {
+        "$numberLong": "1657791381263"
+      }
+    },
+    "__v": 0
+  }
+]
